@@ -1,0 +1,29 @@
+name: PHP Composer
+
+<?php
+/**
+ * The template for displaying the header
+ *
+ * Displays all of the head elements.
+ *
+ * @package Vantage
+ * @since 4.0.0
+ */
+
+?>
+<header class="header" role="banner">
+
+	<?php get_template_part( 'parts/nav-top-bar-primary' ); ?>
+
+	<?php get_template_part( 'parts/nav-top-bar-secondary' ); ?>
+
+</header> <!-- .header -->
+
+<?php get_template_part( 'parts/nav-mobile-title-bar' ); ?>
+
+
+    # Add a test script to composer.json, for instance: "test": "vendor/bin/phpunit"
+    # Docs: https://getcomposer.org/doc/articles/scripts.md
+
+    # - name: Run test suite
+    #   run: composer run-script test
